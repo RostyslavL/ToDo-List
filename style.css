@@ -1,17 +1,64 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu ');
+@import url('https://fonts.googleapis.com/css?family=Poppins:wgth@200;400&displey=swap ');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Ubuntu', sans-serif;
-  color:hsl(9, 37%, 7%);
+  font-family: 'Poppins', sans-serif;
+  color:#444;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 0;
-  overflow-x: hidden;
+  background-color: #f5f5f5;
+}
+h1{
+  color: rgb(179, 131, 226 );
+  font-size: 6rem;
+  text-align: center;
+  opacity: 0.5;
+}
+form{
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .3);
+  max-width:  100%;
+  width: 600px;
+}
+
+.input{
+  border: none;
+  color: #444;
+  font-size: 5rem;
+  padding:  1rem 2rem;
+  display: block;
+  width:  100%;
+}
+.input::placeholder{
+  color: rgb(85, 85, 85);
+}
+.input:focus{
+  outline-color: rgb(179, 131, 226 );
+}
+.todos{
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.todos li{
+  border-top: 2px solid #e5e5e5;
+  font-size: .8rem;
+  padding: 1rem 2rem;
+}
+
+.todos li.completed{
+  color: #b6b6b6;
+  text-decoration: line-through;
+}
+small{
+  color: #b5b5b5;
+  margin-top: 3rem;
+  text-align: center;
 }
