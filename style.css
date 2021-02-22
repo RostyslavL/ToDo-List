@@ -51,11 +51,13 @@ form{
   border-top: 2px solid #e5e5e5;
   font-size: 1.5rem;
   padding: 1rem 2rem;
+  cursor: pointer;
 }
 
 .todos li.completed{
   color: #b6b6b6;
   text-decoration: line-through;
+  cursor: pointer;
 }
 small{
   color: #b5b5b5;
